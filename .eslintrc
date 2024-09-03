@@ -1,0 +1,24 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "rules": {
+      // "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+      // "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }],
+       "no-unused-vars": "off",
+       "no-empty-function":"off",
+       "no-irregular-whitespace" : "off"
+      // You can add more rules here
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  }
+  
